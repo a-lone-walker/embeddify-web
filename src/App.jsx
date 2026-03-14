@@ -107,22 +107,50 @@ function App() {
       </section>
 
       {/* CONTACT */}
-      <section className="section contact">
-        <h2>Contact Us</h2>
-        <p>Email: embeddifysolutions@gmail.com</p>
-        <p>Phone: +91 XXXXX XXXXX</p>
+<section className="section contact">
+  <h2>Contact Embeddify Solutions</h2>
 
-        <p>
-          Location: Embeddify Solutions
-        </p>
+  <p>
+    For academic project development, IoT systems, robotics projects,
+    workshops, or custom embedded solutions — contact us directly.
+  </p>
 
-        <iframe
-          title="location"
-          src="https://maps.google.com/maps?q=embeddify%20solutions&t=&z=13&ie=UTF8&iwloc=&output=embed"
-          width="100%"
-          height="300"
-        ></iframe>
-      </section>
+  <div className="contactBox">
+
+    <div className="contactInfo">
+      <h3>Get a Project Quote</h3>
+
+      <p>WhatsApp / Phone: +91 9110702889</p>
+
+      <a
+        href="https://wa.me/919110702889?text=Hello%20Embeddify%20Solutions,%20I%20want%20details%20about%20a%20project."
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <button className="whatsappBtn">
+          Chat on WhatsApp
+        </button>
+      </a>
+
+      <p className="address">
+        Location: Embeddify Solutions  
+        <br />
+        Hyderabad, Telangana, India
+      </p>
+    </div>
+
+    <div className="map">
+      <iframe
+        src="https://www.google.com/maps?q=17.2787812,78.5380252&z=15&output=embed"
+        width="100%"
+        height="350"
+        style={{ border: 0 }}
+        loading="lazy"
+      ></iframe>
+    </div>
+
+  </div>
+</section>
 
       {/* FOOTER */}
       <footer className="footer">
